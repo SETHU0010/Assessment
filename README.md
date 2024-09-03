@@ -17,47 +17,41 @@ This repository contains solutions for the Data Analyst role assessment, focusin
 ## Theoretical Knowledge
 
 ### 1. Understanding Data Visualization
-Data visualization is crucial in data analysis as it helps to interpret complex data sets through graphical representation. Effective data visualization principles include:
-- **Clarity:** Make sure the visualizations are easy to understand.
-- **Accuracy:** Represent the data accurately without distortion.
-- **Relevance:** Use the right type of chart for the data being presented.
-- **Simplicity:** Avoid clutter and focus on key insights.
+Data visualization is crucial in data analysis as it allows for the effective communication of complex data insights through graphical representation. Key principles of effective data visualization include:
+- **Clarity:** Ensure that visualizations are easy to interpret.
+- **Accuracy:** Represent data truthfully without distortion.
+- **Relevance:** Use appropriate chart types for the data being presented.
+- **Simplicity:** Avoid unnecessary elements that can clutter the visual.
 
 ### 2. Tableau Basics
-**Main Components:**
+**Main Components of Tableau:**
 - **Data Connection:** Connect to various data sources.
-- **Data Pane:** Manage dimensions and measures.
-- **Shelves:** Drag and drop fields to create visualizations.
-- **Dashboard:** Combine multiple visualizations into an interactive dashboard.
+- **Data Pane:** Manage and access data fields.
+- **Shelves:** Create visualizations by dragging and dropping fields.
+- **Dashboard:** Combine multiple visualizations into a single interactive view.
 
 **Creating a Basic Dashboard:**
 1. Connect to the dataset.
-2. Drag relevant fields to create visualizations (e.g., bar charts, line charts).
+2. Create visualizations such as bar charts and line charts.
 3. Combine these visualizations into a dashboard.
-4. Add interactivity using filters and actions.
+4. Add interactive elements like filters to enhance user engagement.
 
 ### 3. Power BI Fundamentals
-**Main Features:**
-- **Data Import:** Connect and import data from various sources.
-- **Data Transformation:** Clean and transform data using Power Query.
-- **Visualizations:** Create reports using different visualizations like charts and maps.
-- **Interactivity:** Add slicers and filters to make reports interactive.
+**Main Features of Power BI:**
+- **Data Import:** Import data from various sources.
+- **Data Transformation:** Clean and reshape data using Power Query.
+- **Visualizations:** Create reports with charts, tables, and maps.
+- **Interactivity:** Add slicers and filters to enable user interactions.
 
 **Comparison with Tableau:**
-- **Integration:** Power BI integrates well with Microsoft tools, while Tableau offers more advanced visualization capabilities.
-- **Cost:** Power BI is generally more cost-effective.
-- **Use Cases:** Power BI is often used for business reporting, while Tableau is preferred for more complex data visualizations.
+- **Integration:** Power BI integrates seamlessly with Microsoft products, while Tableau excels in advanced visualization capabilities.
+- **Cost:** Power BI is generally more affordable.
+- **Use Cases:** Power BI is often used for business reporting and simple dashboards, whereas Tableau is preferred for in-depth data analysis and complex visualizations.
 
 ## Practical Application
 
 ### 4. Data Cleaning and Preparation
-The data cleaning script is provided in `data_cleaning.py`. It includes:
-- Loading the dataset.
-- Handling missing values by filling with mode (for categorical) or median (for numeric).
-- Standardizing categorical values.
-- Removing duplicates.
-- Saving the cleaned dataset.
-
+**Script: `data_cleaning.py`**
 ```python
 import pandas as pd
 
